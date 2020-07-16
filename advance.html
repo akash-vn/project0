@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .nav {
+                width: 100%;
+                margin: 0!important;
+                background-color: #f1f1f1;
+                height: 60px;
+            }
+            .navbar button {
+                margin-right: 20px;
+            }
+            .navbar a, button {
+                margin-top: 10px;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <div class="bdy">
+            <div class="nav">
+                <div class="navbar">
+                    <img src="https://www.google.co.in/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" title="Go to Google Home">
+                    <a href="index.html">Search</a>
+                    <a href="images.html">Images</a>
+                    <button>Sign in</button>
+                </div>
+            </div>
+            <div class="main">
+                <div id="adv">
+                    <div id="ad">
+                        Advanced Search
+                    </div>
+                </div>                
+                <div id="fp">
+                    Find pages with...
+                </div>
+                <div id="td">
+                    To do this in the search box.
+                </div>                
+                <div class="sbars">
+                    <form action="https://google.com/search">
+                        <label for="atw">all these words:</label>
+                        <input name="as_q" type="text" id="atw" autocomplete="off">
+                        <div class="rtd">Type the important words: <div>tri-colour rat terrier</div></div>
+                        <br>
+                        <label for="tewp">this exact word or phrase:</label>
+                        <input name="as_epq" type="text" id="tewp" autocomplete="off">
+                        <div class="rtd">Put exact words in quotes: <div>"rat terrier"</div></div>
+                        <br>
+                        <label for="aftw">any of these words:</label>
+                        <input name="as_oq" type="text" id="aftw" autocomplete="off">
+                        <div class="rtd">Type OR between all the words you want: <div>miniature OR standard</div></div>
+                        <br>
+                        <label for="nftw">none of these words:</label>
+                        <input name="as_eq" type="text" id="nftw" autocomplete="off">
+                        <div class="rtd">Put a minus sign just before words that you don't want: <div>-rodent, -"Jack Russell"</div></div>
+                        <br>
+                        <input type="submit" id="bluebtn" value="Advanced Search">
+                    </form>
+                </div>                
+            </div>
+            <div class="foot">
+                <div>
+                    India
+                </div>
+                <div>
+                    <a href="#" class="left">Help</a>
+                    <a href="#" class="left">Privacy</a>
+                    <a href="#" class="left">Terms</a>                  
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
